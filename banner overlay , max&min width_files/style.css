@@ -1,0 +1,106 @@
+/* Universal Selector */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+/* Element Selector */
+
+h2 {
+    color: red
+}
+
+
+
+/* Class Selector */
+
+.para {
+    text-align: center;
+}
+
+/* ID Selector */
+#container {
+    background-color: aqua;
+}
+
+/* Grouping Selector */
+
+h2,
+.para {
+    /* border: 2px solid red */
+
+    border-width: 2px;
+    border-color: red;
+    border-style: solid;
+
+}
+
+
+.border {
+
+    color: white;
+
+    /* border-style: dotted;
+    border-style: dashed;
+    border-style: double;
+    border-style: groove;
+    border-width: 20px;
+    border-top-color: blue;
+    border-right-color: crimson;
+    border-left-color: green;
+    border-bottom-color: khaki */
+        /* border-style: dashed;
+    border-width: 5px;
+    border-left-width: 10px;;
+    border-right-color: magenta;
+    border-top-style: dotted;
+    border-top-width: 15px;
+    border-right-width: 10px; */
+
+    background-color: rgba(0, 0, 0, .5);
+    height: 635px;
+    width:1000px;
+    margin-left:20px;
+}
+
+
+.bp{
+    background-image: url(banner\ 2.jpg);
+    width: 1020px;
+    height: 635px;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    margin-left:20px;
+}
+
+.mp {
+
+    width: 300px;
+    border: 5px solid black;
+    padding: 25px;
+    margin: 40px;
+
+
+    /* padding: 30px 5px 25px;
+        margin: 20px;
+        width: 400px;
+        height: 350px;
+        border: 5px solid black */
+
+}
+
+.mawi{
+min-width: 200px;
+height: 200px;
+background-color: aqua;
+padding:10px;
+margin-left: 20px;
+}

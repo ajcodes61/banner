@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CSS</title>
+
+    
+
+<link rel="stylesheet" href="./banner overlay , max&amp;min width_files/style.css"></head>
+
+<body>
+
+
+    <div id="container">
+
+        <h2> CSS </h2>
+
+
+
+        <p class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur unde atque ad qui dolorem
+            neque quis eveniet rem sunt aliquid autem quas laborum magnam consequatur iste eum, quisquam eligendi enim!
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, reprehenderit. Maxime pariatur tenetur cum
+            excepturi fugit nostrum voluptas provident voluptate quis incidunt. Sapiente nam eligendi harum obcaecati
+            quos dolorum est!
+        </p>
+
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <section class="bp">
+
+        <div class="border">
+            <h3> ANISH </h3>
+
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quod iure rem! Deserunt quibusdam iste,
+                explicabo perspiciatis repellat beatae veritatis susc
+
+            </p>
+        </div>
+
+    </section>
+
+
+
+    <br>
+    <br>
+    <br>
+
+    <section class="mp">
+
+        <div>
+
+            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure quo quis quam rerum tempora, assumenda
+                cumque deserunt,
+                vitae maiores quisquam aliquid nihil totam dolore nulla. Doloribus praesentium
+                tempora sapiente incidunt.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias illo itaque fuga molestiae
+                consectetur, non veritatis eum quod ullam, doloribus inventore corrupti,
+                debitis expedita voluptas eius incidunt. Autem, sequi eligendi!
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <hr>
+    <br>
+    <br>
+<h3> CSS Height and width and max-width</h3>
+
+<div class="mawi">  The div element has a height of 200px and max-width 500 px </div>
+
+<p>Resize the window to see the effect </p>
+
+
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
